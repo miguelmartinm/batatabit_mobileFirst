@@ -1,0 +1,46 @@
+/* 
+Agregando estilos:
+    1. Posicionamiento --> static, absolute, relative, fixed
+    2. Modelo de caja (Box model) --> margin, border, padding, content
+    3. Tipografía --> tipos, tamaños de fuente, etc
+    4. Estilos visuales --> box-shadow, border-radius, gradient, etc
+    5. Otros --> reglas CSS y más
+ 
+*/
+:root {
+    /* Colores */
+    --primary-color: #f7931a;
+    --soft-primary-color: #ffe9d5;
+    --secondary-color: #1a9af7;
+    --soft-secondary-color: #e7f5ff;
+    --warm-dark-color: #201e1c;
+    --dark-color: #282623;
+    --darker-light-color: #bababa;
+    --background-color: #faf8f7;
+    --light-color: #fff;
+
+    /* --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --gray: #BABABA;
+    --off-white: #FAF8F7;
+    --white: #FFFFFF;
+    --font-sans:'DM Sans', sans-serif;
+	--font-inter:'Inter', sans-serif; */
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5;        
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
